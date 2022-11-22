@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3E52AD2292D8E2D00A23335 /* TugasSesi2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E52AD1292D8E2D00A23335 /* TugasSesi2App.swift */; };
+		F3E52AD4292D8E2D00A23335 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E52AD3292D8E2D00A23335 /* ContentView.swift */; };
+		F3E52AD6292D8E3300A23335 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3E52AD5292D8E3300A23335 /* Assets.xcassets */; };
+		F3E52AD9292D8E3300A23335 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3E52AD8292D8E3300A23335 /* Preview Assets.xcassets */; };
+		F3E52AE3292D8E3400A23335 /* TugasSesi2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E52AE2292D8E3300A23335 /* TugasSesi2Tests.swift */; };
+		F3E52AED292D8E3400A23335 /* TugasSesi2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E52AEC292D8E3400A23335 /* TugasSesi2UITests.swift */; };
+		F3E52AEF292D8E3400A23335 /* TugasSesi2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E52AEE292D8E3400A23335 /* TugasSesi2UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3E52ADF292D8E3300A23335 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3E52AC6292D8E2D00A23335 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3E52ACD292D8E2D00A23335;
+			remoteInfo = TugasSesi2;
+		};
+		F3E52AE9292D8E3400A23335 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3E52AC6292D8E2D00A23335 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3E52ACD292D8E2D00A23335;
+			remoteInfo = TugasSesi2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F3E52ACE292D8E2D00A23335 /* TugasSesi2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TugasSesi2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3E52AD1292D8E2D00A23335 /* TugasSesi2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TugasSesi2App.swift; sourceTree = "<group>"; };
+		F3E52AD3292D8E2D00A23335 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F3E52AD5292D8E3300A23335 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3E52AD8292D8E3300A23335 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F3E52ADE292D8E3300A23335 /* TugasSesi2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TugasSesi2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3E52AE2292D8E3300A23335 /* TugasSesi2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TugasSesi2Tests.swift; sourceTree = "<group>"; };
+		F3E52AE8292D8E3400A23335 /* TugasSesi2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TugasSesi2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3E52AEC292D8E3400A23335 /* TugasSesi2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TugasSesi2UITests.swift; sourceTree = "<group>"; };
+		F3E52AEE292D8E3400A23335 /* TugasSesi2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TugasSesi2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3E52ACB292D8E2D00A23335 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3E52ADB292D8E3300A23335 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3E52AE5292D8E3400A23335 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3E52AC5292D8E2D00A23335 = {
+			isa = PBXGroup;
+			children = (
+				F3E52AD0292D8E2D00A23335 /* TugasSesi2 */,
+				F3E52AE1292D8E3300A23335 /* TugasSesi2Tests */,
+				F3E52AEB292D8E3400A23335 /* TugasSesi2UITests */,
+				F3E52ACF292D8E2D00A23335 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3E52ACF292D8E2D00A23335 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3E52ACE292D8E2D00A23335 /* TugasSesi2.app */,
+				F3E52ADE292D8E3300A23335 /* TugasSesi2Tests.xctest */,
+				F3E52AE8292D8E3400A23335 /* TugasSesi2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3E52AD0292D8E2D00A23335 /* TugasSesi2 */ = {
+			isa = PBXGroup;
+			children = (
+				F3E52AD1292D8E2D00A23335 /* TugasSesi2App.swift */,
+				F3E52AD3292D8E2D00A23335 /* ContentView.swift */,
+				F3E52AD5292D8E3300A23335 /* Assets.xcassets */,
+				F3E52AD7292D8E3300A23335 /* Preview Content */,
+			);
+			path = TugasSesi2;
+			sourceTree = "<group>";
+		};
+		F3E52AD7292D8E3300A23335 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F3E52AD8292D8E3300A23335 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F3E52AE1292D8E3300A23335 /* TugasSesi2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F3E52AE2292D8E3300A23335 /* TugasSesi2Tests.swift */,
+			);
+			path = TugasSesi2Tests;
+			sourceTree = "<group>";
+		};
+		F3E52AEB292D8E3400A23335 /* TugasSesi2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				F3E52AEC292D8E3400A23335 /* TugasSesi2UITests.swift */,
+				F3E52AEE292D8E3400A23335 /* TugasSesi2UITestsLaunchTests.swift */,
+			);
+			path = TugasSesi2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3E52ACD292D8E2D00A23335 /* TugasSesi2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3E52AF2292D8E3400A23335 /* Build configuration list for PBXNativeTarget "TugasSesi2" */;
+			buildPhases = (
+				F3E52ACA292D8E2D00A23335 /* Sources */,
+				F3E52ACB292D8E2D00A23335 /* Frameworks */,
+				F3E52ACC292D8E2D00A23335 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TugasSesi2;
+			productName = TugasSesi2;
+			productReference = F3E52ACE292D8E2D00A23335 /* TugasSesi2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3E52ADD292D8E3300A23335 /* TugasSesi2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3E52AF5292D8E3400A23335 /* Build configuration list for PBXNativeTarget "TugasSesi2Tests" */;
+			buildPhases = (
+				F3E52ADA292D8E3300A23335 /* Sources */,
+				F3E52ADB292D8E3300A23335 /* Frameworks */,
+				F3E52ADC292D8E3300A23335 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3E52AE0292D8E3300A23335 /* PBXTargetDependency */,
+			);
+			name = TugasSesi2Tests;
+			productName = TugasSesi2Tests;
+			productReference = F3E52ADE292D8E3300A23335 /* TugasSesi2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F3E52AE7292D8E3400A23335 /* TugasSesi2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3E52AF8292D8E3400A23335 /* Build configuration list for PBXNativeTarget "TugasSesi2UITests" */;
+			buildPhases = (
+				F3E52AE4292D8E3400A23335 /* Sources */,
+				F3E52AE5292D8E3400A23335 /* Frameworks */,
+				F3E52AE6292D8E3400A23335 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3E52AEA292D8E3400A23335 /* PBXTargetDependency */,
+			);
+			name = TugasSesi2UITests;
+			productName = TugasSesi2UITests;
+			productReference = F3E52AE8292D8E3400A23335 /* TugasSesi2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3E52AC6292D8E2D00A23335 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					F3E52ACD292D8E2D00A23335 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					F3E52ADD292D8E3300A23335 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = F3E52ACD292D8E2D00A23335;
+					};
+					F3E52AE7292D8E3400A23335 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = F3E52ACD292D8E2D00A23335;
+					};
+				};
+			};
+			buildConfigurationList = F3E52AC9292D8E2D00A23335 /* Build configuration list for PBXProject "TugasSesi2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3E52AC5292D8E2D00A23335;
+			productRefGroup = F3E52ACF292D8E2D00A23335 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3E52ACD292D8E2D00A23335 /* TugasSesi2 */,
+				F3E52ADD292D8E3300A23335 /* TugasSesi2Tests */,
+				F3E52AE7292D8E3400A23335 /* TugasSesi2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3E52ACC292D8E2D00A23335 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3E52AD9292D8E3300A23335 /* Preview Assets.xcassets in Resources */,
+				F3E52AD6292D8E3300A23335 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3E52ADC292D8E3300A23335 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3E52AE6292D8E3400A23335 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3E52ACA292D8E2D00A23335 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3E52AD4292D8E2D00A23335 /* ContentView.swift in Sources */,
+				F3E52AD2292D8E2D00A23335 /* TugasSesi2App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3E52ADA292D8E3300A23335 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3E52AE3292D8E3400A23335 /* TugasSesi2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3E52AE4292D8E3400A23335 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3E52AEF292D8E3400A23335 /* TugasSesi2UITestsLaunchTests.swift in Sources */,
+				F3E52AED292D8E3400A23335 /* TugasSesi2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3E52AE0292D8E3300A23335 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3E52ACD292D8E2D00A23335 /* TugasSesi2 */;
+			targetProxy = F3E52ADF292D8E3300A23335 /* PBXContainerItemProxy */;
+		};
+		F3E52AEA292D8E3400A23335 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3E52ACD292D8E2D00A23335 /* TugasSesi2 */;
+			targetProxy = F3E52AE9292D8E3400A23335 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F3E52AF0292D8E3400A23335 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3E52AF1292D8E3400A23335 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3E52AF3292D8E3400A23335 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TugasSesi2/Preview Content\"";
+				DEVELOPMENT_TEAM = Z56A65XK9W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fransalamonda.com.TugasSesi2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3E52AF4292D8E3400A23335 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TugasSesi2/Preview Content\"";
+				DEVELOPMENT_TEAM = Z56A65XK9W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fransalamonda.com.TugasSesi2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F3E52AF6292D8E3400A23335 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z56A65XK9W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fransalamonda.com.TugasSesi2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TugasSesi2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TugasSesi2";
+			};
+			name = Debug;
+		};
+		F3E52AF7292D8E3400A23335 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z56A65XK9W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fransalamonda.com.TugasSesi2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TugasSesi2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TugasSesi2";
+			};
+			name = Release;
+		};
+		F3E52AF9292D8E3400A23335 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z56A65XK9W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fransalamonda.com.TugasSesi2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TugasSesi2;
+			};
+			name = Debug;
+		};
+		F3E52AFA292D8E3400A23335 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z56A65XK9W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fransalamonda.com.TugasSesi2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TugasSesi2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3E52AC9292D8E2D00A23335 /* Build configuration list for PBXProject "TugasSesi2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3E52AF0292D8E3400A23335 /* Debug */,
+				F3E52AF1292D8E3400A23335 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3E52AF2292D8E3400A23335 /* Build configuration list for PBXNativeTarget "TugasSesi2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3E52AF3292D8E3400A23335 /* Debug */,
+				F3E52AF4292D8E3400A23335 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3E52AF5292D8E3400A23335 /* Build configuration list for PBXNativeTarget "TugasSesi2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3E52AF6292D8E3400A23335 /* Debug */,
+				F3E52AF7292D8E3400A23335 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3E52AF8292D8E3400A23335 /* Build configuration list for PBXNativeTarget "TugasSesi2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3E52AF9292D8E3400A23335 /* Debug */,
+				F3E52AFA292D8E3400A23335 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3E52AC6292D8E2D00A23335 /* Project object */;
+}
