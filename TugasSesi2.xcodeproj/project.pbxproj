@@ -94,6 +94,7 @@
 		F3E52AD0292D8E2D00A23335 /* TugasSesi2 */ = {
 			isa = PBXGroup;
 			children = (
+				F3E52AFB292D902100A23335 /* View */,
 				F3E52AD1292D8E2D00A23335 /* TugasSesi2App.swift */,
 				F3E52AD3292D8E2D00A23335 /* ContentView.swift */,
 				F3E52AD5292D8E3300A23335 /* Assets.xcassets */,
@@ -125,6 +126,13 @@
 				F3E52AEE292D8E3400A23335 /* TugasSesi2UITestsLaunchTests.swift */,
 			);
 			path = TugasSesi2UITests;
+			sourceTree = "<group>";
+		};
+		F3E52AFB292D902100A23335 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
