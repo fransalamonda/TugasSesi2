@@ -35,13 +35,11 @@ struct ContentView: View {
                         
                         PricingView(textColor: .white, bgColor: .clear, icon: "cart.badge.plus")
                            
-                        
                     }//: ZSTACK
                     
                 }
-                
                 headerView
-                                    .foregroundColor(.white)
+                .foregroundColor(.white)
                 
                 
                 Spacer()
