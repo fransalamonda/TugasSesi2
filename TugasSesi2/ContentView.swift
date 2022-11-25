@@ -64,8 +64,7 @@ struct ContentView_Previews: PreviewProvider {
 
 // MARK: - PRICING VIEW
 struct PricingView: View {
-    //var title: String
-    //var price: String
+    
     var textColor: Color
     var bgColor: Color
     var icon: String
@@ -95,7 +94,7 @@ extension ContentView {
                     .fontWeight(.black)
                 
                 Text("Discover local destinations beauty with Bluskey and travel with pride")
-                    .font(.system(size: 16))
+                    .font(.system(size: 18))
                     .font(.system(.largeTitle, design: .rounded))
                     .fontWeight(.black)
             } //: VSTACK
