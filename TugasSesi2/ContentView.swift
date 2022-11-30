@@ -100,4 +100,21 @@ extension ContentView {
         } //: HSTACK
         .padding(20)
     }
+    
+    private var userProfileView: some View {
+            Color.primary
+                .frame(width: 40, height: 40)
+                .clipShape(Circle())
+                .opacity(0.1)
+                .overlay {
+                    Image(systemName: "person.circle")
+                        .symbolRenderingMode(.hierarchical)
+                        .foregroundColor(.white)
+                        .scaledToFit()
+                        .padding(10)
+                }
+        }
+    
 }
+
+

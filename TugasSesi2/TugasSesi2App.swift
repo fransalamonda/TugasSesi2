@@ -11,7 +11,8 @@ import SwiftUI
 struct TugasSesi2App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //ContentView()
+            SwiftUILink()
         }
     }
 }

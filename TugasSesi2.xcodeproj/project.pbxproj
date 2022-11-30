@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F37DF9F52936D97D007D2576 /* SwiftUILink.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37DF9F42936D97D007D2576 /* SwiftUILink.swift */; };
 		F3E52AD2292D8E2D00A23335 /* TugasSesi2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E52AD1292D8E2D00A23335 /* TugasSesi2App.swift */; };
 		F3E52AD4292D8E2D00A23335 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E52AD3292D8E2D00A23335 /* ContentView.swift */; };
 		F3E52AD6292D8E3300A23335 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3E52AD5292D8E3300A23335 /* Assets.xcassets */; };
@@ -14,6 +15,9 @@
 		F3E52AE3292D8E3400A23335 /* TugasSesi2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E52AE2292D8E3300A23335 /* TugasSesi2Tests.swift */; };
 		F3E52AED292D8E3400A23335 /* TugasSesi2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E52AEC292D8E3400A23335 /* TugasSesi2UITests.swift */; };
 		F3E52AEF292D8E3400A23335 /* TugasSesi2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E52AEE292D8E3400A23335 /* TugasSesi2UITestsLaunchTests.swift */; };
+		F3E52AFF2930F03500A23335 /* ComponentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E52AFE2930F03500A23335 /* ComponentButton.swift */; };
+		F3E52B3A293224A300A23335 /* ContentUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E52B39293224A300A23335 /* ContentUIView.swift */; };
+		F3E52B3C29326C3B00A23335 /* DetailSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E52B3B29326C3B00A23335 /* DetailSheetView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F37DF9F42936D97D007D2576 /* SwiftUILink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILink.swift; sourceTree = "<group>"; };
 		F3E52ACE292D8E2D00A23335 /* TugasSesi2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TugasSesi2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3E52AD1292D8E2D00A23335 /* TugasSesi2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TugasSesi2App.swift; sourceTree = "<group>"; };
 		F3E52AD3292D8E2D00A23335 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +49,9 @@
 		F3E52AE8292D8E3400A23335 /* TugasSesi2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TugasSesi2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3E52AEC292D8E3400A23335 /* TugasSesi2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TugasSesi2UITests.swift; sourceTree = "<group>"; };
 		F3E52AEE292D8E3400A23335 /* TugasSesi2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TugasSesi2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F3E52AFE2930F03500A23335 /* ComponentButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentButton.swift; sourceTree = "<group>"; };
+		F3E52B39293224A300A23335 /* ContentUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentUIView.swift; sourceTree = "<group>"; };
+		F3E52B3B29326C3B00A23335 /* DetailSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailSheetView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +139,10 @@
 		F3E52AFB292D902100A23335 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F3E52AFE2930F03500A23335 /* ComponentButton.swift */,
+				F3E52B39293224A300A23335 /* ContentUIView.swift */,
+				F3E52B3B29326C3B00A23335 /* DetailSheetView.swift */,
+				F37DF9F42936D97D007D2576 /* SwiftUILink.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -266,6 +278,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3E52AD4292D8E2D00A23335 /* ContentView.swift in Sources */,
+				F3E52AFF2930F03500A23335 /* ComponentButton.swift in Sources */,
+				F3E52B3A293224A300A23335 /* ContentUIView.swift in Sources */,
+				F37DF9F52936D97D007D2576 /* SwiftUILink.swift in Sources */,
+				F3E52B3C29326C3B00A23335 /* DetailSheetView.swift in Sources */,
 				F3E52AD2292D8E2D00A23335 /* TugasSesi2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
